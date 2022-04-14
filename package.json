@@ -1,12 +1,10 @@
 {
-  "name": "@uniswap/token-lists",
+  "name": "@jediswap/token-lists",
   "author": {
-    "name": "Uniswap Labs",
-    "email": "contact@uniswap.org",
-    "url": "https://uniswap.org"
+    "name": "Jediswap Labs"
   },
   "description": "📚 The Token Lists specification",
-  "version": "1.0.0-beta.28",
+  "version": "1.0.0-beta.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -18,7 +16,7 @@
     "node": ">=10"
   },
   "repository": {
-    "url": "https://github.com/Uniswap/token-lists",
+    "url": "https://github.com/jediswaplabs/token-lists",
     "type": "git"
   },
   "scripts": {

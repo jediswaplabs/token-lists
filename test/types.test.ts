@@ -6,6 +6,6 @@ describe('types', () => {
     // this is enough--typescript won't cast it unless it matches the interface
     const list: TokenList = exampleList;
 
-    expect(list.name).toEqual('My Token List');
+    expect(list.name).toEqual('Jediswap Labs List');
   });
 });
