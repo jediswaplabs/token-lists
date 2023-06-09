@@ -1,7 +1,9 @@
+import { StarknetChainId } from 'starknet/dist/constants';
+
 type ExtensionValue = string | number | boolean | null;
 
 export interface TokenInfo {
-  readonly chainId: number;
+  readonly chainId: string;
   readonly address: string;
   readonly name: string;
   readonly decimals: number;

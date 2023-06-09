@@ -177,7 +177,7 @@
           "type": "integer",
           "description": "The chain ID of the Ethereum network where this token is deployed",
           "minimum": 1,
-          "examples": [1, 42]
+          "examples": ["mainnet", "testnet"]
         },
         "address": {
           "type": "string",
