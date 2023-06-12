@@ -174,7 +174,7 @@
       "additionalProperties": false,
       "properties": {
         "chainId": {
-          "type": "integer",
+          "type": "string",
           "description": "The chain ID of the Ethereum network where this token is deployed",
           "minimum": 1,
           "examples": ["mainnet", "testnet"]
