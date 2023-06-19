@@ -1,8 +1,6 @@
 {
   "name": "My Example List",
-  "keywords": [
-    "abc"
-  ],
+  "keywords": ["abc"],
   "tags": {
     "1": {
       "name": "tag 1",
@@ -14,13 +12,11 @@
     {
       "name": "name",
       "address": "0x0000000000000000000000000000000000000000",
-      "chainId": 1,
+      "chainId": "mainnet",
       "decimals": 256,
       "logoURI": "https://test",
       "symbol": "abc",
-      "tags": [
-        "coin"
-      ]
+      "tags": ["coin"]
     }
   ],
   "version": {
