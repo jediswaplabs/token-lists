@@ -44,7 +44,7 @@ describe('#diffTokenLists', () => {
       added: [],
       removed: [],
       changed: {
-        1: {
+        mainnet: {
           '0x0a': ['name', 'decimals'],
         },
       },
@@ -56,7 +56,7 @@ describe('#diffTokenLists', () => {
       added: [],
       removed: [tokenB],
       changed: {
-        1: {
+        mainnet: {
           '0x0a': ['tags'],
         },
       },
@@ -69,7 +69,7 @@ describe('#diffTokenLists', () => {
       added: [],
       removed: [tokenB],
       changed: {
-        1: {
+        mainnet: {
           '0x0a': ['tags'],
         },
       },

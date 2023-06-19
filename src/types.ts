@@ -1,5 +1,3 @@
-import { StarknetChainId } from 'starknet/dist/constants';
-
 type ExtensionValue = string | number | boolean | null;
 
 export interface TokenInfo {
